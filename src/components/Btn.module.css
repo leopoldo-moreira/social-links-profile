@@ -1,0 +1,19 @@
+.btn{
+    width: 100%;
+    padding: 1.5em;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 1em;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    transition: .5s;
+    margin: .6em;
+}
+
+.btn:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
