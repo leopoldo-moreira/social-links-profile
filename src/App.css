@@ -11,7 +11,8 @@
     background-color: hsl(0, 0%, 12%);
     border-radius: 1em;
     margin: 5em auto;
-    width: 40%;    
+    width: 45%;   
+    min-width: 600px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,13 +38,13 @@
 }
 
 .App > p:nth-of-type(2){
-    font-size: 19px;
+    font-size: calc(1vw + .6vh);
     font-weight: 200;
     margin-bottom: 1.5em;   
 }
 
 @media screen and (max-width: 700px){
     .App{
-        min-width: 80vw;
+        min-width: 70vw;
     }
 }
