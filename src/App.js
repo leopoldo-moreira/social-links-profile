@@ -15,7 +15,8 @@ function App() {
 
 
   return (
-    <div className="App">
+    <main className="App">
+
       <img alt="profile avatar" src={ProfileImg}></img>
       <h1>Jessica Randall</h1>
       <p>London, United Kingdom</p>
@@ -27,7 +28,7 @@ function App() {
       
       
            
-    </div>
+    </main>
   );
 }
 
